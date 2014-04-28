@@ -21,7 +21,7 @@ template = '
 			</h1>
 		</header>
 		<section class="main">
-			<article>
+			<article class="tagline">
 				<p>%{tagline}</p>
 			</article>
 			<div id="mc_embed_signup">
@@ -47,7 +47,7 @@ template = '
 
 en_text = {
 	:tagline => "An app that lets you report racist graffiti.",
-	:email_input_placeholder => "Enter email",
+	:email_input_placeholder => "Enter your email",
 	:call_to_action => "Subscribe for updates",
 	:language => "<a href='../bg/index.html'>Бг</a>",
 }
