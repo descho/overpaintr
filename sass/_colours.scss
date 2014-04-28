@@ -1,0 +1,16 @@
+body {
+	color: $text-colour;
+	background-color: $background-colour;
+}
+.site-title {
+	color: $h-color;
+}
+input, textarea {
+	border-color: darken($background-colour, 10%);
+	&:hover, &:focus {
+		border-color: darken($background-colour, 30%);
+	}
+}
+a {
+	color: $text-colour;
+}

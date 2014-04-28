@@ -19,11 +19,11 @@ input, textarea {
 	width: 100% !important;
 	max-width: 100% !important;
 	padding: 0.5em 0.7em;
-	border: 1px solid darken($background-colour, 10%);
+	border: 1px solid;
 	outline: none;
 	-webkit-appearance: none;
 	&:hover, &:focus {
-		border: 1px solid darken($background-colour, 30%);
+		border: 1px solid;
 	}
 }
 .pushbutton-wide {
