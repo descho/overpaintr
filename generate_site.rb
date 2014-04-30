@@ -2,16 +2,14 @@
 template = File.read("template.html")
 
 en_text = {
-	:tagline => "An app that lets you report racist graffiti.",
-	:email_input_placeholder => "Enter your email",
-	:call_to_action => "Subscribe for updates",
+	:tagline => "An app that lets you report racist graffiti. Coming soon!",
+	:call_to_action => "Get in touch",
 	:language => "<a href='../bg/index.html'>Бг</a>",
 }
 
 bg_text = {
-	:tagline => "Приложение, с което можеш да докладваш расистки графити.",
-	:email_input_placeholder => "Въведи имейл",
-	:call_to_action => "Запиши се за новини",
+	:tagline => "Приложение за докладване на расистки графити. Скоро!",
+	:call_to_action => "Свържи се с нас",
 	:language => "<a href='../en/index.html'>En</a>",
 }
 

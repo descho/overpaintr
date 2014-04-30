@@ -5,12 +5,6 @@ body {
 .site-title {
 	color: $h-color;
 }
-input, textarea {
-	border-color: darken($background-colour, 10%);
-	&:hover, &:focus {
-		border-color: darken($background-colour, 30%);
-	}
-}
 a {
-	color: $text-colour;
+	color: $h-color;
 }
