@@ -14,7 +14,7 @@
 	<body>
 		<header class="site-header">
 			<nav class="language-selector">%{language}</nav>
-			<h1 class="site-title">
+			<h1 id="responsive_headline" class="site-title">
 				overpaintr
 			</h1>
 		</header>
@@ -24,5 +24,10 @@
 			</article>
 			<button class="button"><a href="mailto:hello@overpaintr.com">%{call_to_action}</a></button>
 		</section>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="../js/jquery.fittext.js"></script>
+		<script>
+			jQuery("#responsive_headline").fitText(1, { minFontSize: '44px', maxFontSize: '80px' });
+		</script>
 	</body>
 </html>
