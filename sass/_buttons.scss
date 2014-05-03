@@ -1,22 +1,19 @@
-.button {
-	font-size: 1.2em;
-	font-family: inherit;
-	color: inherit;
+.btn {
+	display: inline-block;
+	width: 100%;
+	padding: 1em 2em;
+	text-decoration: none;
+	font-weight: 600;
 	border-radius: $small-radius;
-	max-width: 100%;
-	padding: 0.8em 1.6em;
 	outline: none;
-	-webkit-appearance: none;
-	cursor: pointer;
-//	box-shadow: 0 1px 1px $h-color; 
-	background-color: darken($background-colour, 9%);
-	border: 1px solid darken($background-colour, 18%);
+	color: darken($highlight-colour, 40%);
+	text-shadow: 0 1px 0 lighten($highlight-colour, 20%);
+	background: linear-gradient(180deg, lighten($highlight-colour, 10%) 0%, $highlight-colour 100%) lighten($highlight-colour, 5%);
+	box-shadow: 0 2px 0 darken($background-colour, 20%);
 	&:hover {
-		background-color: darken($background-colour, 15%);
-		border: 1px solid darken($background-colour, 30%);
-	}
-	a {
-		text-decoration: none;
-		text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+		color: darken($highlight-colour, 45%);
+		text-shadow: 0 1px 0 lighten($highlight-colour, 30%);
+		background: linear-gradient(180deg, $highlight-colour 0%, darken($highlight-colour, 10%) 100%) darken($highlight-colour, 5%);
+		box-shadow: 0 2px 0 darken($background-colour, 30%);
 	}
 }

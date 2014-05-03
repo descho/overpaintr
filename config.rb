@@ -25,3 +25,12 @@ color_output = false
 # sass-convert -R --from scss --to sass sass scss && rm -rf sass && mv scss sass
 preferred_syntax = :scss
 
+require 'autoprefixer-rails'
+require 'csso'
+
+on_stylesheet_saved do |file|
+  css = File.read(file)
+  File.open(file, 'w') do |io|
+    io << AutoprefixerRails.compile(css)
+  end
+end
