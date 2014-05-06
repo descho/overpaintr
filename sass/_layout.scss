@@ -12,6 +12,9 @@ body {
 }
 .site-title, .tagline, .call-to-action {
 	text-align: center;
+	.image {
+		width: 380px;
+	}
 }
 .image {
 	max-width: 100%;
