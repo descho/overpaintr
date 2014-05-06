@@ -1,33 +1,26 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<meta name="viewport" content="initial-scale=1.0">
 		<link href="http://fonts.googleapis.com/css?family=Bree+Serif|Open+Sans:400italic,400,600&subset=latin,cyrillic" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" type="text/css" href="../css/style.css">
 		<title>overpaintr</title>
-		<?php wp_head(); ?>
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 		<!--[if lt IE 9]>
 		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 	</head>
 	<body>
-		<header class="site-header">
+		<div class="page-wrap">
 			<nav class="language-selector"><a href='../bg/index.html'>Бг</a></nav>
-			<h1 id="responsive_headline" class="site-title">
-				overpaintr
+			<h1 class="site-title">
+				<img class="image" src="../images/overpaintr_logo.svg"	onerror="this.onerror=null; this.src='overpaintr_logo.png'" alt="overpaintr">
 			</h1>
-		</header>
-		<section class="main">
-			<article class="tagline">
+			<div class="tagline">
 				<p>An app that lets you report racist graffiti. Coming soon!</p>
-			</article>
-			<a class="btn" href="mailto:hello@overpaintr.com">Get in touch</a>
-		</section>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-	<script src="../js/jquery.fittext.js"></script>
-		<script>
-			jQuery("#responsive_headline").fitText(1, { minFontSize: '44px', maxFontSize: '80px' });
-		</script>
+			</div>
+			<div class="call-to-action">
+				<a class="btn" href="mailto:hello@overpaintr.com">Get in touch</a>
+			</div>
+		</div>
 	</body>
 </html>

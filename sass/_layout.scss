@@ -1,11 +1,22 @@
 * {
 	box-sizing: border-box;
 }
-body {
-	max-width: 26em;
-	margin: 0 auto;
-	padding: 3em;
+html {
+	height: 100%;
 }
-.site-header, .main {
+body {
+//	max-width: 26em;
+	margin: 0;
+	height: 100%;
+//	padding: 3em;
+}
+.site-title, .tagline, .call-to-action {
 	text-align: center;
+}
+.image {
+	max-width: 100%;
+}
+.page-wrap {
+	width: 85%;
+	margin: 90px auto;
 }
