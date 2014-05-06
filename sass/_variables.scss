@@ -1,13 +1,16 @@
-// Break Points
-
-$narrow: 480px;
-
 // Colours
 
-$text-colour: #fff;
-$background-colour: #3ea0b2;
-$highlight-colour: #9ded37;
-$h-color: #bbfaf7;
+$text-color: #cee9ee;
+$bg-color-1: #3e93b2;
+$bg-color-2: #3eb2a1;
+$highlight-color-1: #39ffe2;
+$highlight-color-2: #3bffb8;
+
+// Gradients
+
+$bg-gradient: linear-gradient(144deg, $bg-color-1 0%, $bg-color-2 100%);
+$btn-gradient: linear-gradient(159deg, $highlight-color-1 20%, $highlight-color-2 100%);
+$btn-gradient-hover: linear-gradient(159deg, darken($highlight-color-1, 5%) 50%, darken($highlight-color-2, 5%) 100%);
 
 // Other
 
