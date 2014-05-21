@@ -1,0 +1,17 @@
+body {
+  background-color: lightyellow;
+}
+
+form {
+  background-color: gold;
+  text-align: center;
+}
+
+#photos figure {
+  display: inline-block;
+  float: left;
+}
+
+#photos img {
+  max-width: 320px;
+}
