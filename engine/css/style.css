@@ -7,15 +7,11 @@ form {
   text-align: center;
 }
 
-#photos figure {
+figure {
   display: inline-block;
   float: left;
 }
 
-figure figcaption {
-  display: inline;
-}
-
-#photos img {
-  max-width: 320px;
+img {
+  max-width: 240px;
 }
