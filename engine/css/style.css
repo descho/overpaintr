@@ -12,6 +12,10 @@ form {
   float: left;
 }
 
+figure figcaption {
+  display: inline;
+}
+
 #photos img {
   max-width: 320px;
 }
